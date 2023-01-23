@@ -7,7 +7,6 @@ import {
     OpenDialogOptions,
     Uri,
     window,
-    workspace,
 } from "vscode";
 import { existsSync, lstatSync, writeFile } from "fs";
 import { getProviderStateTemplate, getProviderTemplate } from "../templates";
